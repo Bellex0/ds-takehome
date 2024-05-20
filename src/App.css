@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-top: 30px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.weather-container {
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px;
+    width: 40%; 
+}
+
+/* FORM STYLING */
+
+label {
+  font-weight: bold;
+}
+
+.latitude {
+  margin-bottom: 10px;
+}
+
+.start-container {
+  margin-bottom: 10px;
+}
+
+#start-date, #end-date {
+  margin-right: 20px;
+}
+
+.submit-button {
+  cursor: pointer;
+  width: 80px;
+  height: 30px;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
